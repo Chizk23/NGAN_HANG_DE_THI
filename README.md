@@ -15,20 +15,6 @@ Một ứng dụng Desktop mạnh mẽ được xây dựng trên nền tảng *
 
 ---
 
-## 📜 Mục lục (Table of Contents)
-
-1.  [Tổng Quan Dự Án](#-tổng-quan-dự-án-project-overview)
-2.  [Tính Năng Nổi Bật](#-tính-năng-nổi-bật-key-features)
-3.  [Công Nghệ & Kiến Trúc](#-công-nghệ--kiến-trúc-technology--architecture)
-4.  [Bắt đầu (Getting Started)](#-bắt-đầu-getting-started)
-5.  [Hướng Dẫn Sử Dụng](#-hướng-dẫn-sử-dụng-usage-guide)
-6.  [Cải tiến trong Tương lai](#-cải-tiến-trong-tương-lai-future-improvements)
-7.  [Giấy phép](#-giấy-phép-license)
-8.  [Ủng hộ Dự án](#-ủng-hộ-dự-án-support-the-project)
-9.  [Liên hệ](#-liên-hệ-contact)
-
----
-
 ## 🌟 Tổng Quan Dự Án (Project Overview)
 
 Dự án này được phát triển để giải quyết nhu cầu thực tế trong lĩnh vực giáo dục: cần một công cụ chuyên biệt, mạnh mẽ và dễ sử dụng để số hóa và quản lý ngân hàng câu hỏi. Hệ thống giúp giảm thiểu công việc thủ công, tự động hóa các quy trình và cung cấp các tính năng thông minh để nâng cao hiệu quả công việc.
