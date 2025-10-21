@@ -1,188 +1,202 @@
-# 🏦 Ngân Hàng Đề Thi - Exam Question Bank Management System
+# 🏦 Exam Question Bank Management System
 
 [![Java Version](https://img.shields.io/badge/Java-11%2B-blue.svg)](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0%2B-orange.svg)](https://www.mysql.com/)
 [![Maven](https://img.shields.io/badge/Built%20with-Maven-red.svg)](https://maven.apache.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Một ứng dụng Desktop mạnh mẽ được xây dựng trên nền tảng **Java Swing** và **MySQL**, nhằm mục đích tạo ra một công cụ hiệu quả để quản lý, lưu trữ và biên soạn đề thi trắc nghiệm cho các nhà giáo dục và người tạo nội dung.
+A powerful desktop application built on **Java Swing** and **MySQL**, designed to create an effective tool for managing, storing, and compiling multiple-choice exams for educators and content creators.
 
 <br>
 
-![Giao diện chính của ứng dụng](REAME_IMG/giao-dien-chinh.png)
+![Main Interface of the Application](REAME_IMG/giao-dien-chinh.png)
 
 <br>
 
 ---
 
-## 🌟 Tổng Quan Dự Án (Project Overview)
+## 📜 Table of Contents
 
-Dự án này được phát triển để giải quyết nhu cầu thực tế trong lĩnh vực giáo dục: cần một công cụ chuyên biệt, mạnh mẽ và dễ sử dụng để số hóa và quản lý ngân hàng câu hỏi. Hệ thống giúp giảm thiểu công việc thủ công, tự động hóa các quy trình và cung cấp các tính năng thông minh để nâng cao hiệu quả công việc.
-
-Nền tảng của chúng tôi được thiết kế để phục vụ quy trình làm việc của giáo viên và người quản lý đào tạo:
-
-*   **Đối với Người Biên Soạn (Educators/Content Creators):** Cung cấp một giao diện trực quan để tạo, phân loại và lưu trữ câu hỏi. Các công cụ tìm kiếm và lọc nâng cao giúp dễ dàng tìm lại và tái sử dụng nội dung.
-*   **Đối với Người Quản lý (Administrators):** Cho phép tạo và tùy chỉnh các đề thi một cách linh hoạt từ ngân hàng câu hỏi có sẵn, sau đó xuất ra các định dạng file chuyên nghiệp để in ấn hoặc sử dụng trực tuyến.
-
-Để kết nối hiệu quả các quy trình này, chúng tôi đã tích hợp các công nghệ hiện đại như **Trí tuệ Nhân tạo (Google Gemini)** để tự động trích xuất câu hỏi từ hình ảnh, giúp đẩy nhanh quá trình nhập liệu và số hóa tài liệu.
+1.  [Project Overview](#-project-overview)
+2.  [Key Features](#-key-features)
+3.  [Technology & Architecture](#️-technology--architecture)
+4.  [Getting Started](#-getting-started)
+5.  [Usage Guide](#-usage-guide)
+6.  [Future Improvements](#-future-improvements)
+7.  [License](#-license)
+8.  [Support the Project](#-support-the-project)
+9.  [Contact](#-contact)
 
 ---
 
-## ✨ Tính Năng Nổi Bật (Key Features)
+## 🌟 Project Overview
 
-📚 ## 1. Quản lý Ngân hàng Câu hỏi Toàn diện
-*   Tạo, sửa, xóa và xem câu hỏi với trình soạn thảo trực quan.
-*   Hỗ trợ đa phương tiện: Đính kèm file **Âm thanh (Audio)** và **Hình ảnh (Image)** cho câu hỏi.
-*   Phân loại chi tiết: Gán Cấp độ (N1-N5), Dạng bài, Nguồn gốc và Tags cho từng câu hỏi.
+This project was developed to address a real-world need in the education sector: the necessity for a specialized, powerful, and user-friendly tool to digitize and manage question banks. The system helps minimize manual labor, automates processes, and provides intelligent features to enhance work efficiency.
 
-📝 ## 2. Biên soạn và Quản lý Đề thi
-*   Tạo đề thi mới bằng cách kéo-thả hoặc chọn câu hỏi từ ngân hàng.
-*   Sắp xếp thứ tự và tùy chỉnh danh sách câu hỏi trong mỗi đề thi.
-*   Lưu trữ và quản lý tất cả các đề thi đã tạo.
+Our platform is designed to serve the workflow of teachers and training managers:
 
-🤖 ## 3. Tích hợp Trí tuệ Nhân tạo (AI-Powered by Gemini)
-*   **Trích xuất câu hỏi từ ảnh:** Tải lên ảnh chụp một trang đề thi, AI sẽ tự động phân tích và chuyển đổi thành các câu hỏi có cấu trúc.
-*   **Gợi ý nội dung:** Cung cấp gợi ý để tạo câu hỏi dựa trên văn bản hoặc chủ đề.
+*   **For Educators/Content Creators:** We provide an intuitive interface to create, categorize, and store questions. Advanced search and filtering tools make it easy to find and reuse content.
+*   **For Administrators:** The system allows for the flexible creation and customization of exams from the existing question bank, which can then be exported into professional file formats for printing or online use.
 
-📄 ## 4. Xuất File Chuyên nghiệp
-*   Xuất đề thi và đáp án ra định dạng **PDF** và **DOCX (Word)**.
-*   **Tự động xáo trộn đề:** Tạo nhiều mã đề khác nhau từ một đề thi gốc chỉ với một cú nhấp chuột.
-*   Tùy chọn in kèm đáp án và giải thích chi tiết.
+To effectively connect these processes, we have integrated modern technologies such as **Artificial Intelligence (Google Gemini)** to automatically extract questions from images, speeding up the data entry and document digitization process.
 
-🔍 ## 5. Tìm kiếm và Lọc Nâng cao
-*   Nhanh chóng tìm kiếm câu hỏi theo từ khóa, cấp độ, dạng bài và nhiều tiêu chí khác.
-*   Lọc câu hỏi có hoặc không có file đa phương tiện đính kèm.
+---
 
-## ⚙️ Công Nghệ & Kiến Trúc (Technology & Architecture)
+## ✨ Key Features
 
-| Lĩnh vực | Công nghệ / Thư viện |
+📚 ### 1. Comprehensive Question Bank Management
+*   Create, edit, delete, and view questions with an intuitive editor.
+*   Multimedia Support: Attach **Audio** and **Image** files to questions.
+*   Detailed Classification: Assign Levels (N1-N5), Question Types, Sources, and Tags to each question.
+
+📝 ### 2. Exam Compilation and Management
+*   Create new exams by dragging and dropping or selecting questions from the bank.
+*   Arrange the order and customize the list of questions within each exam.
+*   Store and manage all created exams.
+
+🤖 ### 3. Artificial Intelligence Integration (AI-Powered by Gemini)
+*   **Extract Questions from Images:** Upload an image of an exam page, and the AI will automatically analyze and convert it into structured questions within the system.
+*   **Content Suggestions:** Provides suggestions for creating questions based on text or topics.
+
+📄 ### 4. Professional File Export
+*   Export exams and answer keys to **PDF** and **DOCX (Word)** formats.
+*   **Automatic Exam Shuffling:** Generate multiple different versions of an exam from a single original with just one click.
+*   Option to print with answer keys and detailed explanations.
+
+🔍 ### 5. Advanced Search and Filtering
+*   Quickly search for questions by keyword, level, type, and various other criteria.
+*   Filter questions with or without attached multimedia files.
+
+## ⚙️ Technology & Architecture
+
+| Category | Technology / Library |
 | :--- | :--- |
-| **Nền tảng & Ngôn ngữ** | Java 11+, Java Swing |
-| **Cơ sở dữ liệu** | MySQL 8.0+, JDBC |
+| **Platform & Language** | Java 11+, Java Swing |
+| **Database** | MySQL 8.0+, JDBC |
 | **Build Tool** | Apache Maven |
 | **Logging** | SLF4J & Logback |
-| **Thư viện xử lý File** | Apache PDFBox (PDF), Apache POI (DOCX) |
+| **File Processing Libraries** | Apache PDFBox (PDF), Apache POI (DOCX) |
 | **API & Networking** | OkHttp3, Gson, Google Gemini API |
-| **Kiến trúc** | Layered Architecture (UI, Service, DAO), Service-Oriented Design |
+| **Architecture** | Layered Architecture (UI, Service, DAO), Service-Oriented Design |
 
-## 🚦 Bắt đầu (Getting Started)
+## 🚦 Getting Started
 
-### Yêu cầu (Prerequisites)
+### Prerequisites
 
-*   **JDK 11** hoặc mới hơn
+*   **JDK 11** or newer
 *   **Apache Maven** 3.6+
 *   **MySQL Server** 8.0+
-*   IDE như IntelliJ IDEA hoặc Eclipse
+*   An IDE like IntelliJ IDEA or Eclipse
 *   **Google Gemini API Key**
 
-### Các bước cài đặt (Installation Steps)
+### Installation Steps
 
-1.  **Clone a Repository**
+1.  **Clone the Repository**
     ```bash
     git clone https://github.com/Chizk23/NGAN_HANG_DE_THI.git
     cd NGAN_HANG_DE_THI
     ```
-2.  **Thiết lập Cơ sở dữ liệu**
-    *   Mở file `src/main/resources/config.properties` và cập nhật thông tin `db.user` và `db.password` của MySQL.
-    *   Tạo database trong MySQL:
+2.  **Set up the Database**
+    *   Open the `src/main/resources/config.properties` file and update the `db.user` and `db.password` for MySQL.
+    *   Create the database in MySQL:
         ```sql
         CREATE DATABASE NGAN_HANG_DE_THI CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
         ```
-    *   **Lần chạy đầu tiên:** Bỏ comment dòng `DatabaseManager.initializeSchemaAndDatabase();` trong file `MainApplication.java` và chạy ứng dụng để tự động tạo các bảng. Sau đó, comment lại dòng này.
+    *   **For the first run:** Uncomment the line `DatabaseManager.initializeSchemaAndDatabase();` in the `MainApplication.java` file and run the application to automatically create the tables. Then, comment it out again.
 
-3.  **Cài đặt API Key**
-    *   Mở file `src/main/resources/config.properties` và thêm API Key của bạn:
+3.  **Set up the API Key**
+    *   Open the `src/main/resources/config.properties` file and add your API Key:
         ```properties
         ai.gemini.apikey=YOUR_GOOGLE_AI_STUDIO_API_KEY_HERE
         ```
 
-4.  **Build và Chạy Ứng dụng**
-    *   Sử dụng Maven để build:
+4.  **Build and Run the Application**
+    *   Use Maven to build:
         ```bash
         mvn clean install
         ```
-    *   Chạy file JAR đã được tạo trong thư mục `target/`:
+    *   Run the generated JAR file in the `target/` directory:
         ```bash
         java -jar nganhangdethi-1.0.jar
         ```
 
 ---
 
-## 📖 Hướng Dẫn Sử Dụng (Usage Guide)
+## 📖 Usage Guide
 
-#### Bước 0: Cấu hình API Key (Bắt buộc cho tính năng AI)
-Trước khi sử dụng, hãy vào `Tệp` -> `Cài đặt`, nhập API Key của bạn và nhấn `Lưu`.
+#### Step 0: Configure API Key (Required for AI features)
+Before use, go to `File` -> `Settings`, enter your API Key, and click `Save`.
 
-![Cửa sổ cài đặt API Key](REAME_IMG/anh-cai-dat-api-key.png)
-
----
-
-### a) Chức năng Quản lý Câu Hỏi
-
-#### Thêm câu hỏi mới
-1.  Nhấn vào biểu tượng **"Thêm câu hỏi"** trên thanh công cụ.
-    ![Nút thêm câu hỏi](REAME_IMG/anh-nut-them-cau-hoi.png)
-
-2.  Hộp thoại sẽ hiện ra cho bạn hai lựa chọn:
-    ![Lựa chọn thêm câu hỏi](REAME_IMG/anh-lua-chon-them.png)
-
-**Lựa chọn 1: Thêm một câu hỏi**
-- Tạo câu hỏi thủ công hoặc sử dụng các nút hỗ trợ từ AI để tạo nội dung, đáp án sai, giải thích hoặc trích xuất từ một ảnh duy nhất.
-
-![Cửa sổ thêm một câu hỏi](REAME_IMG/anh-them-mot-cau-hoi1.png)
-![Cửa sổ thêm một câu hỏi](REAME_IMG/anh-them-mot-cau-hoi2.png)
-
-**Lựa chọn 2: Thêm nhiều câu hỏi từ file ảnh**
-- Tải ảnh lên, nhập số câu hỏi dự kiến và nhấn **"Trích xuất bằng AI"**.
-- Sau khi AI xử lý, bạn có thể chỉnh sửa, chọn lọc và thêm các câu hỏi vào ngân hàng.
-
-![Cửa sổ thêm nhiều câu hỏi từ ảnh](REAME_IMG/anh-them-nhieu-cau-hoi.png)
-
-#### Các thao tác khác
-- **Tải lại, Sửa, Xoá:** Sử dụng các nút trên thanh công cụ. Luôn nhấn **"Tải lại"** sau khi thay đổi để cập nhật dữ liệu.
-- **Xem chi tiết:** **Nháy đúp chuột** vào một câu hỏi để xem cửa sổ thông tin chi tiết.
-
-![Cửa sổ xem chi tiết câu hỏi](REAME_IMG/anh-xem-chi-tiet-cau-hoi.png)
+![API Key Settings Window](REAME_IMG/anh-cai-dat-api-key.png)
 
 ---
 
-### b) Quản lý Đề Thi
+### a) Question Management Functions
 
-#### Thêm hoặc Sửa Đề thi
-- Nhấn **"Tạo Đề thi mới"** hoặc chọn một đề và nhấn **"Sửa Đề thi"**.
-- Sử dụng các nút mũi tên để chuyển câu hỏi giữa ngân hàng và đề thi, và sắp xếp thứ tự của chúng.
+#### Add a new question
+1.  Click the **"Add Question"** icon on the toolbar.
+    ![Add Question Button](REAME_IMG/anh-nut-them-cau-hoi.png)
 
-![Cửa sổ tạo/sửa đề thi](REAME_IMG/anh-tao-de-thi.png)
+2.  A dialog will appear with two options:
+    ![Add Question Options](REAME_IMG/anh-lua-chon-them.png)
 
-#### Xuất file Đề thi
-- Chọn một đề thi và sử dụng các nút chức năng để xuất file.
-- **"Xuất Bộ đề xáo trộn"** sẽ tạo ra nhiều mã đề ngẫu nhiên cùng với đáp án riêng cho từng mã.
+**Option 1: Add a single question**
+- Create a question manually or use the AI-assisted buttons to generate content, incorrect answers, explanations, or extract from a single image.
 
-![Các nút chức năng xuất file](REAME_IMG/anh-cac-nut-xuat-file.png)
+![Add Single Question Window 1](REAME_IMG/anh-them-mot-cau-hoi1.png)
+![Add Single Question Window 2](REAME_IMG/anh-them-mot-cau-hoi2.png)
 
-#### Xem chi tiết Đề thi
-- **Nháy đúp chuột** vào một đề thi để mở cửa sổ chi tiết. Tại đây, bạn có thể tiếp tục nháy đúp vào một câu hỏi để xem thông tin của nó.
+**Option 2: Add multiple questions from an image file**
+- Upload an image, enter the expected number of questions, and click **"Extract with AI"**.
+- After the AI processes the image, you can edit, select, and add the questions to the bank.
 
-![Cửa sổ xem chi tiết đề thi](REAME_IMG/anh-xem-chi-tiet-de-thi.png)
+![Add Multiple Questions from Image Window](REAME_IMG/anh-them-nhieu-cau-hoi.png)
+
+#### Other operations
+- **Reload, Edit, Delete:** Use the buttons on the toolbar. Always click **"Reload"** after making changes to update the data.
+- **View Details:** **Double-click** on a question to open the detailed information window.
+
+![View Question Details Window](REAME_IMG/anh-xem-chi-tiet-cau-hoi.png)
 
 ---
 
-## 🔮 Cải tiến trong Tương lai (Future Improvements)
+### b) Exam Management
 
-*   🌐 **Phiên bản Web:** Phát triển một phiên bản web của ứng dụng.
-*   🤖 **Nâng cấp AI:** Tích hợp mô hình AI để tự động sinh câu hỏi từ văn bản.
-*   📊 **Thống kê & Phân tích:** Xây dựng dashboard phân tích độ khó câu hỏi.
-*   🔄 **Nhập/Xuất Dữ liệu hàng loạt:** Cho phép nhập/xuất câu hỏi từ file Excel/CSV.
-*   👥 **Tính năng Cộng tác:** Cho phép nhiều người cùng làm việc trên một ngân hàng câu hỏi.
+#### Add or Edit an Exam
+- Click **"Create New Exam"** or select an exam and click **"Edit Exam"**.
+- Use the arrow buttons to move questions between the bank and the exam, and to arrange their order.
 
-## 📄 Giấy phép (License)
+![Create/Edit Exam Window](REAME_IMG/anh-tao-de-thi.png)
 
-Dự án này được cấp phép dưới [Giấy phép MIT](LICENSE).
+#### Export an Exam File
+- Select an exam and use the function buttons to export the file.
+- **"Export Shuffled Exam Set"** will generate multiple randomized versions of the exam, each with its own answer key.
 
-## ⭐ Ủng hộ Dự án (Support the Project)
+![File Export Function Buttons](REAME_IMG/anh-cac-nut-xuat-file.png)
 
-Nếu bạn thấy dự án này hữu ích, hãy xem xét tặng nó một ngôi sao ⭐ trên GitHub nhé!
+#### View Exam Details
+- **Double-click** on an exam to open the details window. Here, you can further double-click on a question to view its information.
 
-## 📞 Liên hệ (Contact)
+![View Exam Details Window](REAME_IMG/anh-xem-chi-tiet-de-thi.png)
+
+---
+
+## 🔮 Future Improvements
+
+*   🌐 **Web Version:** Develop a web-based version of the application.
+*   🤖 **AI Upgrade:** Integrate an AI model to automatically generate questions from text.
+*   📊 **Statistics & Analysis:** Build a dashboard to analyze question difficulty.
+*   🔄 **Bulk Data Import/Export:** Allow importing/exporting questions from Excel/CSV files.
+*   👥 **Collaboration Features:** Allow multiple users to work together on a single question bank.
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## ⭐ Support the Project
+
+If you find this project useful, please consider giving it a star ⭐ on GitHub!
+
+## 📞 Contact
 
 *   **Nguyễn Thanh Huyền** - [@Chizk23](https://github.com/Chizk23)
