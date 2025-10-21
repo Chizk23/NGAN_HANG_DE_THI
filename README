@@ -1,10 +1,5 @@
 # 🏦 Ngân Hàng Đề Thi - Exam Question Bank Management System
 
-[![Java Version](https://img.shields.io/badge/Java-11%2B-blue.svg)](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
-[![MySQL](https://img.shields.io/badge/MySQL-8.0%2B-orange.svg)](https://www.mysql.com/)
-[![Maven](https://img.shields.io/badge/Built%20with-Maven-red.svg)](https://maven.apache.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 Một ứng dụng Desktop mạnh mẽ được xây dựng trên nền tảng **Java Swing** và **MySQL**, nhằm mục đích tạo ra một công cụ hiệu quả để quản lý, lưu trữ và biên soạn đề thi trắc nghiệm cho các nhà giáo dục và người tạo nội dung.
 
 <br>
