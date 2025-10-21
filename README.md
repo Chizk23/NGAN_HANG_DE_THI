@@ -30,26 +30,26 @@ Nền tảng của chúng tôi được thiết kế để phục vụ quy trìn
 
 ## ✨ Tính Năng Nổi Bật (Key Features)
 
-📚 ### 1. Quản lý Ngân hàng Câu hỏi Toàn diện
+📚 ## 1. Quản lý Ngân hàng Câu hỏi Toàn diện
 *   Tạo, sửa, xóa và xem câu hỏi với trình soạn thảo trực quan.
 *   Hỗ trợ đa phương tiện: Đính kèm file **Âm thanh (Audio)** và **Hình ảnh (Image)** cho câu hỏi.
 *   Phân loại chi tiết: Gán Cấp độ (N1-N5), Dạng bài, Nguồn gốc và Tags cho từng câu hỏi.
 
-📝 ### 2. Biên soạn và Quản lý Đề thi
+📝 ## 2. Biên soạn và Quản lý Đề thi
 *   Tạo đề thi mới bằng cách kéo-thả hoặc chọn câu hỏi từ ngân hàng.
 *   Sắp xếp thứ tự và tùy chỉnh danh sách câu hỏi trong mỗi đề thi.
 *   Lưu trữ và quản lý tất cả các đề thi đã tạo.
 
-🤖 ### 3. Tích hợp Trí tuệ Nhân tạo (AI-Powered by Gemini)
+🤖 ## 3. Tích hợp Trí tuệ Nhân tạo (AI-Powered by Gemini)
 *   **Trích xuất câu hỏi từ ảnh:** Tải lên ảnh chụp một trang đề thi, AI sẽ tự động phân tích và chuyển đổi thành các câu hỏi có cấu trúc.
 *   **Gợi ý nội dung:** Cung cấp gợi ý để tạo câu hỏi dựa trên văn bản hoặc chủ đề.
 
-📄 ### 4. Xuất File Chuyên nghiệp
+📄 ## 4. Xuất File Chuyên nghiệp
 *   Xuất đề thi và đáp án ra định dạng **PDF** và **DOCX (Word)**.
 *   **Tự động xáo trộn đề:** Tạo nhiều mã đề khác nhau từ một đề thi gốc chỉ với một cú nhấp chuột.
 *   Tùy chọn in kèm đáp án và giải thích chi tiết.
 
-🔍 ### 5. Tìm kiếm và Lọc Nâng cao
+🔍 ## 5. Tìm kiếm và Lọc Nâng cao
 *   Nhanh chóng tìm kiếm câu hỏi theo từ khóa, cấp độ, dạng bài và nhiều tiêu chí khác.
 *   Lọc câu hỏi có hoặc không có file đa phương tiện đính kèm.
 
