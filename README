@@ -6,11 +6,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Một ứng dụng Desktop mạnh mẽ được xây dựng trên nền tảng **Java Swing** và **MySQL**, nhằm mục đích tạo ra một công cụ hiệu quả để quản lý, lưu trữ và biên soạn đề thi trắc nghiệm cho các nhà giáo dục và người tạo nội dung.
----
 
 <br>
 
-![Cửa sổ xem chi tiết đề thi](REAME_IMG/giao-dien-chinh.png)]
+![Giao diện chính của ứng dụng](REAME_IMG/giao-dien-chinh.png)
 
 <br>
 
@@ -118,7 +117,7 @@ Nền tảng của chúng tôi được thiết kế để phục vụ quy trìn
         ```
     *   Chạy file JAR đã được tạo trong thư mục `target/`:
         ```bash
-        java -jar target/nganhangdethi-1.0.jar
+        java -jar nganhangdethi-1.0.jar
         ```
 
 ---
